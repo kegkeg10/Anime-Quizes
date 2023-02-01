@@ -1,13 +1,13 @@
 body {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
+    margin-bottom:0.8rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(253, 213, 1);
+    border-radius: 5px;
+    background: rgb(253, 190, 1);
     font-size: 3rem;
     min-width: 80rem;
 }
@@ -21,7 +21,7 @@ body {
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .choice-text {
@@ -54,18 +54,27 @@ body {
 }
 
 #progressBar {
-    width: 20rem;
-    height: 3rem;
-    border: 0.2rem solid rgb(255, 0, 191);
-    margin-top: 2rem;
+    width: 60rem;
+    height: 3.3rem;
+    border: 0.5rem solid rgb(30, 242, 1);
+    margin-top: 6rem;
     border-radius: 50px;
     overflow: hidden;
 }
 
 #progressBarFull {
     height: 100%;
-    background: rgb(255, 0, 191);
+    background: rgb(4, 0, 255);
     width: 0%;
+}
+
+#progressText {
+    color: rgb(0, 0, 0);
+    font-size: 37px;
+}
+
+p {
+    color: rgb(0, 0, 0);
 }
 
 

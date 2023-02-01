@@ -23,7 +23,7 @@ let questions = [
         question: 'Which Of these is not a ninja Ranking?',
         choice1: 'Hokage',
         choice2: 'Chunin',
-        choice3: 'Hokage',
+        choice3: 'Genin',
         choice4: 'Zenin',
         answer: 4,
     },
@@ -43,10 +43,27 @@ let questions = [
         choice4: 'Team 7',
         answer: 1
     },
+    {
+        question: 'Which Toad Does Naruto summon?',
+        choice1: 'Gamabunta',
+        choice2: 'Gamatatsu',
+        choice3: 'Gamakichi',
+        choice4: 'Shima',
+        answer: 3
+    },
+    {
+        question: 'Which Member is not an Akatsuki?',
+        choice1: 'Sasori',
+        choice2: 'Kisame',
+        choice3: 'Kakuzu',
+        choice4: 'Terumī',
+        answer: 4
+    },
+
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 6
 
 startGame = () => {
     questionCounter = 0
